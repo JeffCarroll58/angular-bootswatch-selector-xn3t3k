@@ -5,8 +5,8 @@ import { Component, Input } from '@angular/core';
   template: `
   <div class="container pt-3">
     <div style="text-align:center">
-      <h1>Theme</h1>
-      <p class="lead">{{ theme }} Title</p>
+      <h1>{{ theme }} Theme</h1>
+      <p class="lead">Title</p>
     </div>
 
     <div class="d-flex d-flex justify-content-center">
