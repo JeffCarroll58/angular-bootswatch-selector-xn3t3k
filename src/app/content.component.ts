@@ -4,11 +4,9 @@ import { Component, Input } from '@angular/core';
   selector: 'content',
   template: `
   <div class="container pt-3">
-
-  
     <div style="text-align:center">
       <h1>Theme</h1>
-      <p class="lead">Title</p>
+      <p class="lead">{{ theme }} Title</p>
     </div>
 
     <div class="d-flex d-flex justify-content-center">
@@ -28,4 +26,5 @@ import { Component, Input } from '@angular/core';
   `
 })
 export class ContentComponent  {
+  @Input() theme: string;
 }
