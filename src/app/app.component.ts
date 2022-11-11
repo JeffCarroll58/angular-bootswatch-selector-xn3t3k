@@ -26,9 +26,7 @@ export class AppComponent  {
     return localStorage.getItem("theme") || themeDefault;
   }
 
-
-
-
+  
   
   changeTheme(theme2: string) {
     console.log("~ changeTheme ~");
