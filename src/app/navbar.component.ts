@@ -8,4 +8,6 @@ import { Component, Input } from "@angular/core";
     </nav>
   `
 })
-export class NavbarComponent {}
+export class NavbarComponent {
+  
+}
